@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></link>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" ></link>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.css"
+    integrity="sha384-Cqd8ihRLum0CCg8rz0hYKPoLZ3uw+gES2rXQXycqnL5pgVQIflxAUDS7ZSjITLb5"
+    crossorigin="anonymous"></link>
+
+  <!-- The loading of KaTeX is deferred to speed up page rendering asdfasdfas -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/katex.min.js"
+    integrity="sha384-1Or6BdeNQb0ezrmtGeqQHFpppNd7a/gw29xeiSikBbsb44xu3uAo8c7FwbF5jhbd"
+    crossorigin="anonymous"></script>
+  <!-- To automatically render math in text elements, include the auto-render extension: -->
+
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.13.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"
+    crossorigin="anonymous"
+    onload="renderMathInElement(document.body)">
+    </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.2.5/math.min.js"> </script>
+  <script src="https://unpkg.com/pts@0.10.5/dist/pts.js"></script>
+
+  <!-- <link rel="stylesheet" href="/dcmath/css/main.css" ></link> -->
+  <link rel="stylesheet" href="./css/main_dan.css" ></link>
+  <!-- <link rel="stylesheet" href="/dcmath/css/flip.css" ></link> -->
+
+  <!-- <link rel="stylesheet" href="./css/main.css" ></link>
+  <link rel="stylesheet" href="./main.css" ></link>
+  <link rel="stylesheet" href="./css/flip.css" ></link> -->
+
+
+
+  </head>
+
+
+  <body>
+  <header> <h1> TEST HTML PAGE - FLEXBOX </h1> </header>
+  <!-- <div w3-include-html="/dcmath/nav/topics.html"></div> -->
+  <nav>
+    <ul>
+        <li><a href="/dcmath/index.html">HOME</a></li>
+        <li><a href="/dcmath/linalg/vectors.html">THESE</a></li>
+        <li><a href="/dcmath/matrix/hypershapes.html">ARE</a></li>
+        <li><a href="/dcmath/calc/derivatives.html">SOME</a></li>
+        <li><a href="/dcmath/complex/complex.html">OTHER</a></li>
+        <li><a href="/dcmath/cvx/hypershapes.html">TABS</a></li>
+        <li><a style="background-color: rgba(200,0,0,0.5);" href="https://danjcalderone.github.io/">  DJC </a> </li>
+    </ul>
+  </nav>
+
+
+
+  <div class="wrapper">
+    <div class="sidebar">
+    <!-- <div w3-include-html="./nav/sidebarLINALG.html"></div> -->
+
+      <ul>
+        <h1><div id="header">MATH - BITE ME</div></h1>
+
+        <h3>VECTORS</h3>
+        <li><a href="/dcmath/linalg/vectors.html"> Vectors   </a> </li>
+        <li><a href="/dcmath/linalg/vectoradd.html"> Adding Vectors    </a </li>
+        <li><a href="/dcmath/linalg/norms.html"> Norms    </a> </li>
+        <li><a href="/dcmath/linalg/innerproducts.html"> Inner Products    </a> </li>
+        <li><a href="/dcmath/linalg/orthogonal.html"> Orthogonality   </a>  </li>
+        <li><a href="/dcmath/linalg/projections.html"> Projections    </a>  </li>
+        <li><a href="/dcmath/linalg/outerproducts.html"> Outer Products    </a>  </li>
+        <li><a href="/dcmath/linalg/highdim.html"> High dimensional    </a>  </li>
+
+        <h3>MATRICES</h3>
+        <li><a href="/dcmath/linalg/linearcombs.html"> Linear combinations   </a>  </li>
+        <li><a href="/dcmath/linalg/convexcombs.html"> Convex combinations   </a>  </li>
+        <li><a href="/dcmath/linalg/matrices.html"> Matrices    </a>  </li>
+        <li><a href="/dcmath/linalg/lineartransforms.html"> Linear Transforms of Sets    </a> </li>
+        <li><a href="/dcmath/linalg/colsnrows.html"> Column & Row Geometry    </a>    </li>
+        <!-- <li><a href="/dcmath/linalg/rows.html"> Row Geometry  </a>  </li> -->
+        <li><a href="/dcmath/linalg/transposes.html"> Transposes    </a> </li>
+        <li><a href="/dcmath/linalg/matrixadd.html"> Matrix addition    </a> </li>
+        <li><a href="/dcmath/linalg/matrixmultiply.html"> Matrix multiplication     </a> </li>
+        <li><a href="/dcmath/linalg/matrixnorms.html"> Matrix Norms   </a> </li>
+        <li><a href="/dcmath/linalg/blockmatrix.html"> Block Matrix Structures     </a> </li>
+
+
+        <h3>BASES & COORDINATES</h3>
+        <li><a href="/dcmath/linalg/coordsnbases.html"> Bases & Coordinates   </a>   </li>
+        <li><a href="/dcmath/linalg/coordinatetransforms.html"> Coordinate Transforms   </a> </li>
+        <li><a href="/dcmath/linalg/orthonormaltransforms.html"> Orthonormal Transforms   </a></li>
+        <li><a href="/dcmath/linalg/inverses.html"> Inverses   </a> </li>
+        <li><a href="/dcmath/linalg/inversedegrees.html"> Degrees of Invertibility </a></li>
+        <li><a href="/dcmath/linalg/similarity.html"> Similarity Transforms   </a></li>
+        <li><a href="/dcmath/linalg/congruent.html"> Congruent Transforms </a></li>
+        <li><a href="/dcmath/linalg/orthonormalize.html"> Orthonormalization   </a> </li>
+        <li><a href="/dcmath/linalg/gramschmidt.html"> Gram-Schmidt Process   </a> </li>
+
+
+      </ul>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class=main_content>
+
+      <div class="level1_typeA">
+      <b> LEVEL 1 - TYPE B </b>
+      <p> some text some text some text  </p>
+
+            <b> LEVEL 2 - TYPE B</b>
+            <div class="level2_typeA">
+
+
+
+                    <div class="level3_typeA">
+                      <b> LEVEL 3- TYPE A </b>
+                      <p> some text some text some text  </p>
+
+
+                      <b> LEVEL 4- TYPE A </b>
+                      <p> some text some text some text  </p>
+                      <div class="level4_typeA">
+
+                        <div class="level5_typeA">
+                          <b> LEVEL 5 - TYPE A</b>
+                          <p> some text some text some text  </p>
+
+                          <p> some text some text some text  </p>
+                        </div>
+
+                        <div class="level5_typeB">
+                          <b> LEVEL 5 - TYPE B</b>
+                          <p> some text some text some text  </p>
+
+                          <p> some text some text some text  </p>
+                        </div>
+
+                        <div class="level5_typeC">
+                          <b> LEVEL 5 - TYPE C</b>
+                          <p> some text some text some text  </p>
+
+                          <p> some text some text some text  </p>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="level3_typeB">
+                      <b> LEVEL 3- TYPE B </b>
+                      <p> some text some text some text  </p>
+
+
+                      <b> LEVEL 4- TYPE B </b>
+                      <p> some text some text some text  </p>
+                      <div class="level4_typeB">
+
+                        <div class="level5_typeD">
+                          <b> LEVEL 5 - TYPE D</b>
+                          <p> some text some text some text  </p>
+
+                          <p> some text some text some text  </p>
+                        </div>
+
+                        <div class="level5_typeE">
+                          <b> LEVEL 5 - TYPE E</b>
+                          <p> some text some text some text  </p>
+
+                          <p> some text some text some text  </p>
+                        </div>
+
+                        <div class="level5_typeF">
+                          <b> LEVEL 5 - TYPE f</b>
+                          <p> some text some text some text  </p>
+
+                          <p> some text some text some text  </p>
+                        </div>
+
+                      </div>
+                    </div>
+
+
+
+
+
+            </div>
+
+            <p> some text some text some text  </p>
+      </div>
+
+
+
+      <div class="level1_typeA">
+      <b> LEVEL 1 - TYPE A</b>
+      <p> some text some text some text  </p>
+
+            <div class="level2_typeA">
+            <b> LEVEL 2 - TYPE A</b>
+            <p> some text some text some text  </p>
+
+                    <div class="level3_typeA">
+                      <b> LEVEL 3 - TYPE A</b>
+                      <p> some text some text some text  </p>
+
+                      <div class="level4_typeA">
+                        <b> LEVEL 4 - TYPE A</b>
+                        <p> some text some text some text  </p>
+
+                        <div class="level5_typeA">
+                          <b> LEVEL 5 - TYPE A</b>
+                          <p> some text some text some text  </p>
+
+                          <p> some text some text some text  </p>
+                        </div>
+
+
+                        <p> some text some text some text  </p>
+                      </div>
+
+
+                      <p> some text some text some text  </p>
+                    </div>
+
+            <p> some text some text some text  </p>
+            </div>
+            <p> some text some text some text  </p>
+      </div>
+
+
+
+</div> <!-- content -->
+</div> <!-- wrapper -->
+
+<!-- <script type='module' src="/dcmath/src/vectoro.js"> </script> -->
+<!-- <script type='module' src="/dcmath/src/hypershapeo.js"> </script>
+<script src="/dcmath/src/extra/includeHTML.js"> </script> -->
+<!-- <script src="./src/extra/includeHTML.js"> </script> -->
+<!-- <script type='text/javascript' src="/dcmath/src/extra/flip.js"> </script> -->
+
+<!--
+<script>
+const slideIndexes ={'VECADD2':1, 'VECADD3':1}
+addSlides('VECADD2',slideIndexes);
+showSlides('VECADD2',slideIndexes['VECADD2'],slideIndexes);
+addSlides('VECADD3',slideIndexes);
+showSlides('VECADD3',slideIndexes['VECADD3'],slideIndexes);
+</script> -->
+
+
+
+  </body>
+</html>
